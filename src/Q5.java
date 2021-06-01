@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Complex {
+class Complex {
 
 
 	int real;
@@ -45,6 +45,8 @@ public class Complex {
 			 }
 		 
 		 }
+	 }
+public class Q5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -71,5 +73,4 @@ public class Complex {
 		g.ans();
 		
 	}
-
 }

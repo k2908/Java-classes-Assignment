@@ -1,4 +1,15 @@
- public class Rectangle {
+
+class Q3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Rectangle x = new Rectangle (4,5);
+		Rectangle y = new Rectangle (5,8);
+		
+	}
+
+}
+ class Rectangle {
 	int area;
 	int breadth;
 	int length;
@@ -13,11 +24,6 @@
 		
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Rectangle x = new Rectangle (4,5);
-		Rectangle y = new Rectangle (5,8);
-		
-	}
+
 
 }

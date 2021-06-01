@@ -1,4 +1,15 @@
-public class Triangle {
+
+class Q2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Triangle b = new Triangle();
+		System.out.println("The area is "+ b.getArea());
+		System.out.println("The Perimeter is "+ b.getPerimeter());
+	}
+
+}
+class Triangle {
 	  int s1 =3  ;
 	 int s2 = 4;
 	  int s3 = 5;
@@ -20,11 +31,5 @@ public class Triangle {
 		
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		Triangle b = new Triangle();
-		System.out.println("The area is "+ b.getArea());
-		System.out.println("The Perimeter is "+ b.getPerimeter());
-	}
-
+	
 }
